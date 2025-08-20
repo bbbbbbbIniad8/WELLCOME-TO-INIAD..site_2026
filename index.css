@@ -1,0 +1,14 @@
+#content_box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translate(0, 50%);
+    position:relative;
+    top: 10vw;
+}
+
+#index_title{
+    font-size:300%;
+    font-weight: 600;
+    
+}
