@@ -1,0 +1,6 @@
+console.log("起動");
+fetch('../menu/menu.html')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('menu').innerHTML = data;
+});
